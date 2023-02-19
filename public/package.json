@@ -1,0 +1,31 @@
+{
+  "name": "solarsystemsimulation",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-legacy": "^4.0.1",
+    "vite": "^4.1.0"
+  },
+  "dependencies": {
+    "parcel": "^2.8.3",
+    "three": "^0.149.0"
+  },
+  "main": "main.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Ddavis626/Solar-System-Simulation.git"
+  },
+  "author": "DJ",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Ddavis626/Solar-System-Simulation/issues"
+  },
+  "homepage": "https://github.com/Ddavis626/Solar-System-Simulation#readme",
+  "description": ""
+}

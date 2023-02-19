@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script type="importmap">
+        {
+            "imports": {
+                "three": "https://unpkg.com/three@0.138.0/build/three.module.js",
+                "OrbitControls": "https://unpkg.com/three@0.138.0/examples/jsm/controls/OrbitControls.js"
+            }
+        }
+    </script>
+    <link href="https://fonts.googleapis.com/css2?family=Ubuntu&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="/style.css">
+    <title>Vite App</title>
+  </head>
+  <body>
+    <section id = "welcome" class = "welcome_class">
+      <h1>Welcome to the Solar System</h1>
+      <p>Our Home</p>
+      <script type="module" src="/main.js"></script>
+      <script type="module" src="/script.js"></script>
+    </section>
+    <nav class = "nav-bar">
+      <ul class = "list">
+        <li ><a class = "planet"  id = "mercury"   href="#"   data-section ="section1">Mercury</a></li>
+        <li ><a class = "planet"  id = "venus"   href="#"   data-section ="section2">Venus</a></li>
+        <li ><a class = "planet"  id = "earth"   href="#"  data-section ="section3">Earth</a></li>
+        <li ><a class = "planet"  id = "mars"   href="#"   data-section ="section4">Mars</a></li>
+        <li ><a class = "planet"  id = "jupiter"   href="#"  data-section ="section5">Jupiter</a></li>
+        <li ><a class = "planet"  id = "saturn"   href="#"  data-section ="section6">Saturn</a></li>
+        <li ><a class = "planet"  id = "uranus"  href="#"   data-section ="section7">Uranus</a></li>
+        <li ><a class = "planet"  id = "neptune"   href="#"  data-section ="section8">Neptune</a></li>
+        <li ><a class = "planet"  id = "pluto"   href="#"   data-section ="section9">Pluto</a></li>
+      </ul>
+    </nav>
+    <section id = "section1" class = "planetSec">
+      <h2>Mercury</h2>
+      <p class = "planetText">
+        Mercury is the smallest planet in our solar system and is also the closest to the sun.
+        If you were to stand of the surface, the sun would appear 3x larger. Ironically, the small 
+        planet is not the hottest of the bunch. That crown is worn by Mercury's sister planet, Venus.
+        Since it is the cloest planet to the sun, it is the fastest traveling planet. Opposed to Earth's 
+        365 day a year cycle, Mercury only has 88 days. There has been a number of robotic visitors
+        such as Mainer 10 and MESSENGER. A third is on its way right now.
+      </p>
+      <img class = "planetPic" src="/image/mercuryPlanet - Edited.png">
+    </section> 
+    <section id = "section2" class = "planetSec">
+      <h2>Venus</h2>
+      <p class = "planetText">
+       Venus is often called "Earth's twin" becuase they are of similar size and structure. However, That
+       is where their similarites end. Venus hold the title for the hottest planet in our neighborhood
+       with temperatures as high as 700°F! Venus rotates so slow compared to Earth that one day on Venus is 243 Earth days.
+       Venus is also home to toxic clouds of sulfuric acid that cover the planet with a smell that'll make your eyes sweat, 
+       rotten eggs. Venus leaves scientist perplexed on how the average suface of the planet is possible as young as 150
+        million years old. 
+      </p>
+      <img class = "planetPic" src="/image/venusPlanet - Edited.png">
+    </section> 
+    <section id = "section3" class = "planetSec">
+      <h2>Earth</h2>
+      <p class = "planetText">
+       Earth, our home planet. The only planet that we know of that has "life" on it. Earth is the third planet away from the sun. 
+       The sun is so massive compared to earth that if the sun were the size of a typival door, the Earth would be
+       the size of a nickle in comparison. You'll find many types of terrains on this blue planet but water
+       is by far the most vast, perfect for inhabitting creatures like us. The Earth is so good at growing and
+       maintaining life that our atmosphere is like a shield against incoming meteroids that, most of which, just burn up.
+       Earth is the only planet that was not named after a greek god. 
+      </p>
+      <img class = "planetPic" src="/image/earthPlanet - Edited.png">
+    </section> 
+    <section id = "section4" class = "planetSec">
+      <h2>Mars</h2>
+      <p class = "planetText">
+       Mars is the fourth planet from the sun with a dynamic enviornment and a thin atmosphere. Mars is one
+       of our most explored celstial bodies and it is believed that it may have had an active past.
+       NASA currently has two rovers (Curiosity and Perseverance), one lander (InSight), and one helicopter 
+       (Ingenuity) exploring the surface of Mars. Mars is known as the Red Planet because iron minerals in the 
+       Martian soil oxidize, or rust, causing the soil and atmosphere to look red.
+      </p>
+      <img class = "planetPic" src="/image/marsPlanet - Edited.png">
+    </section> 
+    <section id = "section5" class = "planetSec">
+      <h2>Jupiter</h2>
+      <p class = "planetText">
+      Jupiter. the fifth planet from the sun is the biggest planet in our solar system. Jupiter is so massive
+      that you can fit all the planets and there would still be space left over. It's famous red spot
+      is a gigantic super storm that has been raging for over 100 years and is  the size of Earth.
+      Jupiter's days are short only lasting about 10 hours but takes about 12 years to make a full rotation around
+      the sun. Though very fient, Jupiter does has a ring like the other gas giants. It is called a gas giant
+      because it is made up of complete gas, hydrogen (H2) and helium (He) to be exact, and lacks an Earth like
+      surface, Though if it had one, it would likely be the size of Earth itself. Jupiter sports over 75 moons
+      and though the planet itself cannot support life, some of its moons have oceans underneath the crust surface that
+      may be enough to support life.
+      </p>
+      <img class = "planetPic" src="/image/jupiterPlanet - Edited.png">
+    </section>
+    <section id = "section6" class = "planetSec">
+      <h2>Saturn</h2>
+      <p class = "planetText">
+      Known as the jewel of the solar system, Jupiter is known for being adorned by a beautiful ring with 7 layers.
+      Like other gas giants, it is made up of mostly gas (hydrogen (H2) and helium (He)) and may have a core at its center.
+      Not many missions have been made to saturn making it a rare destination. Competeing with Jupiter to have the most moons,
+      Saturn has more tha 80 of them which some may be able to support life. A day on Saturn can last about 10 hours, but the years are
+      29 Earth years. About two tons of Saturn's mass came from Earth—the Cassini spacecraft was intentionally vaporized in Saturn's 
+      atmosphere in 2017 .
+      </p>
+      <img class = "planetPic" src="/image/saturnPlanet - Edited.png">
+    </section>
+    <section id = "section7" class = "planetSec">
+      <h2>Uranus</h2>
+      <p class = "planetText">
+      Uranus, the seventh planet  from the sun, was descovered by astronomer William Herschel in 1781. It was the first planet
+      to be descovered through a telescope although it was mistaken for a comet or a star. Uranus is an ice giant, made up of 
+      hot dense fluid( water, methane and ammonia) that appears icy just abover a rocky core. This planet is unique because it rotates on 
+      its side. Although not as massive as its adjacent neighbors, Uranus is still 4x wider than Earth. Uranus takes about 17 hours to rotate 
+      once (a Uranian day), and about 84 Earth years to complete an orbit of the Sun (a Uranian year).
+      </p>
+      <img class = "planetPic" src="/image/uranusPlanet - Edited.png">
+    </section>
+    <section id = "section8" class = "planetSec">
+      <h2>Neptune</h2>
+      <p class = "planetText">
+      Neptune, this brilliant blue ice giant is the eight and furthest planet from the sun, more than 30x the distance compared 
+      to Earth. It is the only planet you cannot see with your naked eye. It was first predicted by mathematics before its discovery. 
+      In 2011 Neptune completed its first 165-year orbit since its discovery in 1846. NASA's Voyager 2 is the only spacecraft to have 
+      visited Neptune up close. It flew past in 1989 on its way out of the solar system. Because of dwarf planet Pluto's elliptical orbit, 
+      Pluto is sometimes closer to the Sun (and us) than Neptune is.
+      </p>
+      <img class = "planetPic" src="/image/neptunePlanet - Edited.png">
+    </section>
+    <section id = "section9" class = "planetSec">
+      <h2>Pluto</h2>
+      <p class = "planetText">
+      Although Pluto is too small to be considered a planet, (is about 1,400 miles (2,380 km) wide. That's about half the 
+      width of the United States, or 2/3 the width of Earth's moon), it is one of the most fasinating dwarf planets out there.
+      It has a heart-shaped glacier that's the size of Texas and Oklahoma and mountains that reach as high as the Rockies.
+      It also snows on Pluto, but the snow is a red color. On July 14, 2015, NASA's New Horizons spacecraft made its historic 
+      flight through the Pluto system, providing the first close-up images of Pluto and its moons and collecting other data that 
+      has transformed our understanding of these mysterious worlds on the solar system's outer frontier. Pluto has 5 moons. The largest, 
+      Charon, is so big that Pluto and Charon orbit each other like a double planet.
+      </p>
+      <img class = "planetPic" src="/image/plutoPlanet - Edited.png">
+    </section>
+  </body>
+</html>

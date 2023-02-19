@@ -1,0 +1,108 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.welcome_class{
+  font-family: 'Ubuntu', sans-serif;
+  z-index: 2;
+  position: absolute;
+  color: white;
+  left: 25%;
+  top: 75%;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  opacity: 0;
+  animation: hide 1s linear 10s 1 forwards;
+ /*animation: fadeInAnimation ease 6s;
+  animation-iteration-count: 1;
+  animation-fill-mode: both;*/
+}
+/*@keyframes fadeInAnimation {
+  0% {
+      opacity: 0;
+  }
+  100% {
+      opacity: 1;
+   }
+}*/
+
+@keyframes hide {
+  to {
+      opacity: 0;
+  }
+}
+
+h1{
+  font-size: 5rem;
+  font-weight: bold;
+  position: relative;
+  bottom: 20%;
+}
+p{
+  font-size: 4rem;
+  font-weight: bold;
+}
+
+
+.nav-bar{
+  display: flex;
+  z-index: 2;
+  position: absolute;
+  animation: fadeInAnimation ease 6s;
+  animation-iteration-count: 1;
+  animation-fill-mode: both;
+}
+@keyframes fadeInAnimation {
+  0% {
+      opacity: 0;
+  }
+  100% {
+      opacity: 1;
+   }
+}
+
+ul{
+  display: flex;
+  gap: 6rem;
+  flex-direction: column;
+  align-items: center;
+}
+li{
+  text-decoration: none;
+  font-size: 1rem;
+  font-family: 'Ubuntu', sans-serif;
+}
+a{
+  color: white;
+  list-style: none;
+  text-decoration: none;
+}
+
+.planetSec{
+  position:absolute;
+  z-index: 2;
+  font-family: 'Ubuntu', sans-serif;
+  color: white;
+  width: 25%;
+  left: 70%;
+  display: none;
+  flex-direction: column;
+  align-items: center;
+  gap: 2rem;
+}
+
+.planetText{
+  text-align: center;
+  font-size: 1rem;
+  line-height: 1.8;
+}
+.planetPic{
+  width: 50%;
+}
+
+.group2{
+  left: 50%;
+}
